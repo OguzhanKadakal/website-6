@@ -1,1 +1,1 @@
-# website-6 - Alıştırma
+# website-6 - Flex ve Responsive Alıştırma
