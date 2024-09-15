@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alıştırma 2</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      .kapsayici {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      #bolge1 {
+        margin-top: 2rem;
+        display: flex;
+        gap: 2rem;
+      }
+
+      #bolge1 > div > img {
+        width: 3rem;
+    }
+
+    #bolge1 > div {
+        border: 1px solid #edf1f7;
+        padding: 1rem;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    #bolge1 > div > h2 {
+        font-weight: 500;
+        color: rgb(46, 58, 89);
+    }
+
+    #bolge1 > div > * {
+        
+    }
+
+    @media all and (max-width: 576px) { 
+      #bolge1 {
+        flex-direction: column;
+        max-width: 90%;
+        margin: 2rem auto 0 auto;
+      }
+
+      #bolge1 > div {
+        justify-content: space-between;
+      }
+    }
+
+    </style>
+  </head>
+  <body>
+    <section id="bolge1" class="kapsayici">
+      <div>
+        <img src="img/kalkan-ikon.svg" alt="" />
+        <h2>Güvenli İnternet</h2>
+        <i class="fa-solid fa-angle-right"></i>
+      </div>
+
+      <div>
+          <img src="img/hedef-ikon.svg" alt="" />
+          <h2>TurkNet Yaklaşımı</h2>
+          <i class="fa-solid fa-angle-right"></i>
+
+      </div>
+
+      <div>
+        <img src="img/dosya-ikon.svg" alt="" />
+          <h2>Şeffaflık Raporu</h2>
+          <i class="fa-solid fa-angle-right"></i>
+      </div>
+
+      <div>
+        <img src="img/internet-ikon.svg" alt="" />
+          <h2>TurkNet GigaFiber</h2>
+          <i class="fa-solid fa-angle-right"></i>
+      </div>
+    </section>
+  </body>
+</html>
